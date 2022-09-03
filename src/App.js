@@ -5,12 +5,12 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-    {/* <Navbar/> */}
+     <Navbar/>
      <Header/>
      <About/>
-     <Work/>
+     {/* <Work/>
      <Skills/>
-     <Footer/>
+     <Footer/> */}
     </div>
   );
 }
