@@ -29,7 +29,7 @@ function Header() {
                     </div>
                 </div>
                 <div className="tag-cmp app__flex">
-                    <p className="p-text">Web/App Developer</p>
+                    <p className="p-text">Frontend Web Developer</p>
                     <p className="p-text">Aspiring Competitive Programmer</p>
                 </div>
             </div>
@@ -48,7 +48,7 @@ function Header() {
         <motion.div variant={scaleVariants}
         whileInView={scaleVariants.whileInView}
         className="app__header-circles">
-        {[Images.flutter,Images.react,Images.sass].map((circle,index)=>(
+        {[Images.cpp,Images.react,Images.sass].map((circle,index)=>(
             <div className="circle-cmp app__flex" key={`circle-${index}`}>
                 <img src={circle} alt="circle"/>
             </div>
